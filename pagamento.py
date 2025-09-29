@@ -4,8 +4,8 @@ def cadastrar():
     usuario = input("ID usuario: ")
     
     print("Assinaturas disponíveis:")
-    print("1 - Basic R$ 10,00")
-    print("2 - Standard R$ 30,00") 
+    print("1 - Basico R$ 10,00")
+    print("2 - avançado R$ 30,00") 
     print("3 - Premium R$ 50,00")
     
     opcao_assinatura = input("Escolha a assinatura (1/2/3): ")
