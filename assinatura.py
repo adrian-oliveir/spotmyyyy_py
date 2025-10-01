@@ -11,16 +11,16 @@ def add_assinatura():
     plano_op = input("Escolha (1-3): ")
     
     if plano_op == "1":
-        plano = "Basic"
+        plano = "Basico"
         preco = "10,00"
     elif plano_op == "2":
-        plano = "Standard"
+        plano = "avançado"
         preco = "30,00"
     elif plano_op == "3":
         plano = "Premium"
         preco = "50,00"
     else:
-        plano = "Basic"
+        plano = "Basico"
         preco = "10,00"
     
     print("Status:")
