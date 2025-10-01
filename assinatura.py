@@ -5,8 +5,8 @@ def add_assinatura():
     usuario_id = input("ID usuario: ")
     
     print("Plano:")
-    print("1 - Basic R$ 10,00")
-    print("2 - Standard R$ 30,00")
+    print("1 - Basico R$ 10,00")
+    print("2 - avançado R$ 30,00")
     print("3 - Premium R$ 50,00")
     plano_op = input("Escolha (1-3): ")
     
